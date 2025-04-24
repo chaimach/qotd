@@ -1,17 +1,17 @@
 apiVersion: apps.openshift.io/v1
 kind: DeploymentConfig
 metadata:
-  name: qotd-rxfm3034
+  name: qotd-bgsc3637
   labels:
-    app: qotd-rxfm3034
+    app: qotd-bgsc3637
 spec:
   selector:
-    app: qotd-rxfm3034
+    app: qotd-bgsc3637
   replicas: 1
   template:
     metadata:
       labels:
-        app: qotd-rxfm3034
+        app: qotd-bgsc3637
     spec:
       containers:
         - name: qotd
